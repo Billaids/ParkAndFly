@@ -1,0 +1,7 @@
+label.error { float: none; color: white; padding-left: .5em; vertical-align: top; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+
+input.error, select.error, #agb.error {border: 1px solid red;}
+#kfz.error {width: 32px;}
+
+#bookingleft input.error {width: 302px !important;}
