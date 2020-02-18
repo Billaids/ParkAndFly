@@ -1,0 +1,188 @@
+<!DOCTYPE">
+<html xmlns="http://www.w3.org/1999/xhtml" data-lt-installed="true"><head>
+        
+        <!-- META TAGS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="imagetoolbar" content="no">
+	<meta name="keywords" content="Parken, Fliegen, Flughafen, Flug, Hannover, Airport">
+	<meta name="description" content="Parken">
+	<meta name="robots" content="follow,index">
+	<meta name="country" content="Germany">
+	<meta name="state" content="Niedersachsen">
+	<meta name="geo.region" content="DE-NDS">
+        
+        <!-- JAVASCRIPT -->
+				<script type="text/javascript" src="scripts/preisBerechnen.js"></script>   
+				
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+				
+
+        <!-- SEITENTITEL -->
+        <title>Park-And-Fly-Hannover.de - Parken auf Parkplatz Flughafen Hannover</title>    </head>
+		<head>
+			    	<div id = "menu">
+      	<div id="menuInner"><a  class="active">Startseite</a> <a >Unser Service</a> <a >Preise</a> <a >Kontakt</a><a  href="mailto:info@parkandflyhannover.de"> info@parkandflyhannover.de</a></div>
+			</div>	
+		</head>
+    <body>
+
+			<br class="clear">
+			<div id ="main">
+				
+				<h1><b>Parken am Flughafen Hannover</b></h1>
+				<img src="start-pic2.jpg" id="startpic"> 
+				<h3>Willkommen bei www.parkandflyhannover.de<br>Einfach besser günstig Parken am Flughafen Hannover</h3>
+				   
+				     <form action="booking.php" method="post" name="booking" id="booking" wfd-id="15">
+
+                <div class="startBooking" >    
+                	           
+                    <b>Buchen Sie hier direkt Ihren Parkplatz:</b>
+                    <br><br>
+                    <div id="start" wfd-id="17">
+                    <label for="from">Anreise:</label>
+                    
+                    <!-- TODO Min Date setzen -->
+                    <input type="date" id="from" name="from"  required="required" min="18.02.2020" class="hasDatepicker">
+                    <br>
+                     <label for="from">Abreise:</label>
+                     
+                    <input type="date" id="to" name="to" required="required"> 
+                    <br>
+                    <input type="submit" class="bookingSubmit" id="bookingSend" value="Zur Buchung"><br><br><br>
+                    <button class="berechnen" id="rechnen">Preis berechen</button>
+                    <br>
+                    <p id="preis">Ihr aktueller Preis beträgt:</p>
+                    </div>
+
+                    
+                 </div>
+                  
+             </form>
+              
+                    
+                
+                <br>
+                <p>
+                    
+                	Park &amp; Fly Hannover bietet Ihnen eine 
+									kostengünstige Möglichkeit Ihr Fahrzeug in unmittelbarer Nähe 
+									(ca.&nbsp;1,5 km/5&nbsp;Minuten) zum Flughafen Hannover Langenhagen 
+									sicher zu parken.
+                    <br><br>                        
+                    Barzahlung vor Ort beim Shuttle-Bus-Fahrer<br>Überweisungen bis 48 Stunden vor Parkantritt.
+                    <br><br>
+                    Parkplatz: Mühlenfeld 26-27, <b>30853</b> Langenhagen<br>
+                    erreichbar über Hanseatenstraße / Mühlenfeld 26-27
+                    <br><br>
+                     <b href="tel:+4915120001216t">Unseren Shuttle-Service erreichen Sie telefonisch unter: 0151 - 20 00 12 16</b><br>
+                     Bitte 10 Minuten bevor Sie beim Parkplatz ankommen unseren Shuttle-Service anrufen,<br>bei Rückflug nach Gepäckerhalt.
+                     <br><br>
+                     Spezielle Informationen für Familien mit Kleinkindern und Reisegruppen bitte unbedingt auf<br><b>mehr Informationen</b> nachschauen.
+                     <br><br>
+                    <a href="https://parkandflyhannover.de/info.php" class="button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text" wfd-id="14">Mehr Information</span></a>
+                </p>
+                
+	             <div>
+	           			 <h1>Unserer Service</h1>
+	                <p>
+	                    <b>Einfach besser günstig parken</b>
+	                    <br /><br />
+	                    Es ist zeitraubend und stressig kurz vor dem Urlaubsantritt einen preiswerten Parkplatz am Flughafen Hannover-Langenhagen zu suchen und auch zu finden…
+	                    <br /><br />
+	                    Park &amp; Fly Hannover bietet Ihnen eine kostengünstige Möglichkeit Ihr Fahrzeug in unmittelbarer Nähe ( ca. 1,5 KM / 5 Minuten ) zum Flughafen Hannover-Langenhagen sicher zu parken.
+	                    <br /><br />
+	                    Park &amp; Fly Hannover bietet Ihnen einen privaten Parkplatz. Der Parkplatz ist umzäunt, sowie dauerhaft Flutlicht beleuchtet.
+	                    <br /><br />
+	                    Unser kostenloser Shuttle-Service bringt Sie nach Ihren Zeitangaben direkt zu Ihrem Abflug-Terminal und holt Sie dort selbstverständlich am Tag Ihrer Rückreise auch wieder ab 
+	                    und bringt Sie zu Ihrem Fahrzeug.
+	                    <br /><br />
+	                    Familien mit Kindern und Kleingruppen empfehlen wir, zuerst zum Flughafen zu fahren. 1. Sicherheit der Kinder im eigenen Kindersitz 2. es ist umständlich Gepäck und Kinderwagen/-karre 2x aus- und einzuladen.
+	                    Dann kann der Fahrzeugführer den 1,5 KM entfernten Parkplatz anfahren und parken. Von dort wird er vom Shuttle zum Flughafen gefahren.                     
+	                    <br /><br />
+	                    <i>…und so einfach geht`s…</i>
+	                    <br /><br />
+	                    1.	Öffnen Sie unsere Internetseite (www.parkandflyhannover.de) und buchen / reservieren Sie einen Parkplatz.
+	                    <br /><br />
+	                    2.	Sie kommen am Abflugtag mit Ihrem Fahrzeug zu unserem Parkplatz, parken Ihr Fahrzeug selbst und laden Ihr Gepäck in unser Shuttle-Bus.
+	                    <br /><br />
+	                    3.	Sie werden von unserem Shuttle direkt zu Ihrem Abflug-Terminal gebracht.                   
+	                </p>
+	            </div>
+	            
+	            <div>
+	            	<h1>Unsere Preise</h1>
+	            	<table>
+	            		<caption>Preisliste</caption>
+	            		<tr><td><b>Tage</b></td><td><b>Preis</b></td></tr>
+	            		<tr><td>1-2</td><td>22,00€ </td></tr>
+	            		<tr><td>3</td><td>25,00€ </td></tr>
+	            		<tr><td>4-5</td><td>28,00€ </td></tr>
+	            		<tr><td>6-8</td><td>39,00€ </td></tr>
+	            		<tr><td>9-10</td><td>42,00€ </td></tr>
+	            		<tr><td>11-14</td><td>44,00€ </td></tr>
+	            		<tr><td>15-17</td><td>52,00€ </td></tr>
+	            		<tr><td>18-21</td><td>63,00€ </td></tr>
+	            		<tfoot><tr><td>Jeder weitere Tag (inklusive MwSt.) <td>2,00€</td></td></tr></tfoot>
+	            		
+	            	</table>
+	            
+	            	
+	           	</div>
+	           	
+	           	<div>
+	           		<h1>Nehmen Sie Kontakt mit uns auf!</h1>
+           
+                <br /><br />
+                                <form action="contact.php" method="post" name="contactform" id="contactform">                    
+                    
+                    <table class="contact floatleft" cellpadding="5" cellspacing="5">
+                        <tr><td><b>Anrede</b></td><td><select name="title"><option value=""></option><option value="Herr">Herr</option><option value="Frau">Frau</option></select></td></tr>
+                        <tr><td><b>Vorname <em>*</em></b></td><td><input type="text" name="firstname" /></td></tr>
+                        <tr><td><b>Nachname <em>*</em></b></td><td><input type="text" name="lastname" /></td></tr>
+                        <tr><td><b>Firma</b></td><td><input type="text" name="company" /></td></tr>
+                        <tr><td><b>Straße</b></td><td><input type="text" name="street" /></td></tr>
+                        <tr><td><b>PLZ</b></td><td><input type="text" name="zipcode" /></td></tr>
+                        <tr><td><b>Stadt</b></td><td><input type="text" name="city" /></td></tr>
+                        <tr><td><b>Telefon</b></td><td><input type="text" name="phone" /></td></tr>
+                        <tr><td><b>E-Mail <em>*</em></b></td><td><input type="text" name="email" /></td></tr>
+                    </table>
+
+                    <table class="contact floatright" cellpadding="5" cellspacing="5">
+                        <tr><td><b>Nachricht <em>*</em></b></td></tr>
+                        <tr><td><textarea name="message" cols="60" rows="12"></textarea></td></tr>
+                        <tr><td><input type="submit" name="sendContact" value="Absenden" /></td></tr>
+                    </table>
+                   
+                    <br class="clear" />
+
+                </form>
+                          	</div>
+	           	
+
+                
+                
+
+
+                    
+                   
+
+							
+			</div>
+			
+			<div > 	
+	           		
+					<p id="footer" >
+						ParkAndFlyHannover - Mühlenfeld 27 - 30853 Langenhagen <br>
+						Büro-Telefonnummer von 10 Uhr bis 20 Uhr: 0151-20001216 <br>
+						© 2020 ParkAndFlyHannover.de | <a href="impressum.html">Impressum</a> | <a href="agb.html">AGB</a>
+					</p>
+	           			
+	    </div>
+	    
+			
+        
+		</body>
+</html>

@@ -1,0 +1,175 @@
+
+body {
+    background: #F0FFFF;
+    color:#696969;
+    font-family: "Century Gothic", Arial, Verdana, sans-serif;
+
+}
+
+h1 {
+	margin-top:2em;
+}
+
+.startBooking label {
+	display: block;
+	text-align:left;
+	font-weight:bold;
+}
+
+#menu {
+			margin:0;
+			background-color:#F0FFFF;
+			position:absolute;
+			top:0;
+			left:0:
+    font-weight: bold;
+    width: 98%;
+     z-index:999;
+
+}
+
+#menuInner {
+    text-align: left;
+    position:fixed;
+    background-color:#004272;
+    width: 98%;
+    height: 2em;
+    padding-left:10em;
+    padding-bottom:1em;
+    padding-top:1em;
+    z-index:999;
+}
+
+.bookingSubmit{
+	border-radius:0.5em;
+	height:3em;
+	width:10em;
+	background-color:#6495ED;
+	float:left;
+	    margin-bottom:1em;
+}
+
+.berechnen{
+	border-radius:0.5em;
+	height:3em;
+	width:10em;
+	background-color:#6495ED;
+	float:left;
+	margin-left:2em;
+	margin-bottom:1em;
+}
+
+
+
+#menuInner a {
+    display: block;
+    float: left;
+    margin-right: 4em;
+    padding: 0 1em;
+    text-align: left;
+    color: #F0FFFF;
+}
+
+#menuInner a.active {
+    border-bottom: 1px dotted white;
+}
+
+#main{
+	margin: 5em 3em 3em 3em;
+	    max-width:65em;
+}
+
+#footer{
+	padding: 1em;
+	width:100%;
+	background-color:#004272;
+	color:white;
+	text-align:center;
+}
+
+#maps{
+	float:right;
+	padding: 2em;
+}
+
+
+.startBooking {
+		border-radius:0.5em;
+    margin-top: 1em;
+    width:19em;
+    background: #efefef;
+    padding:1em;
+    
+}
+
+.floatLeft{
+	float:left;
+	margin-top:1em;
+}
+
+#to{
+	border-radius:1em;
+	background-color: #ffffff;
+	height:3em;
+	float:center;
+	width: 15em;
+	margin-bottom:1em;
+}
+
+#from{
+	border-radius:1em;
+		background-color: #ffffff;
+	height:3em;
+	float:center;
+	width: 15em;
+	margin-bottom:1em;
+}
+
+#startpic{
+	float:right;
+	align:right;
+	margin-left: 1.5em;
+}
+//Preistabelle
+table, th, td { 
+  border-collapse: collapse;
+  padding:0.3em 0.5em; 
+}
+
+table {
+ margin-left: 1em;}
+
+th, caption { 
+  background-color: #666; 
+  color: #fff; 
+  border: 1px solid #666;
+}
+
+td {
+ background-image: linear-gradient(#f9f9f9, #e3e3e3);
+ padding:0.25em 1em 0.25em 1em;
+ 
+}
+
+tfoot {
+  border-bottom: 1px solid #666;
+}
+
+caption {
+  font-size: 1.5em;
+  border-radius: 0.5em 0.5em 0 0;
+  padding: 0.5em 0 0 0
+}
+
+/* 3. und 4. Spalte rechtsbündig */
+td:nth-of-type(3),td:nth-of-type(4) {
+  text-align: right;
+}
+
+
+#opener {clear: both; display: block; margin-top: 0.5em;}
+#opener img {position: relative; top: 0.3em;}
+
+.clear {clear: both;}
+
+
