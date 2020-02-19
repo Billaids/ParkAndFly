@@ -1,499 +1,175 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
-    background: #004272;
-    color: #003051;
+    background: #F0FFFF;
+    color:#696969;
     font-family: "Century Gothic", Arial, Verdana, sans-serif;
-    font-size: 13px;
-}
 
-ul {
-    list-style: none;
 }
 
 h1 {
-    font-size: 15px;
+	margin-top:2em;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid black;
-    border-bottom: 1px solid white;
-    margin: 3px 0;
-}
-
-small {
-    font-size: 10px;
-}
-
-a, #main a {color: white; outline: none; text-decoration: none;}
-#main a {color: black;}
-
-img {border: none;}
-
-input[type=radio], label, input[type=checkbox] {
-    cursor: pointer;
-}
-
-input[type=text], input[type=password], input[type=reset], input[type=submit], select{
-    padding: 3px;
-    outline: none;
-}
-
-input[type=submit] {
-    cursor: pointer;
-}
-
-#top {
-    background: #000000;
-    color: white;
-    height: 28px;
-    padding-top: 5px;
-    width: 100%;
-}
-
-#topInner {
-    margin: 0 auto;
-    width: 950px;
+.startBooking label {
+	display: block;
+	text-align:left;
+	font-weight:bold;
 }
 
 #menu {
-    background: url(../img/menu-bg.png) repeat-x;
-    font-size: 15px;
+			margin:0;
+			background-color:#F0FFFF;
+			position:absolute;
+			top:0;
+			left:0:
     font-weight: bold;
-    height: 15px;
-    padding: 10px 0px;
-    width: 100%;
+    width: 98%;
+     z-index:999;
+
 }
 
 #menuInner {
     text-align: left;
-    margin: 0 auto;
-    width: 950px;
+    position:fixed;
+    background-color:#004272;
+    width: 98%;
+    height: 2em;
+    padding-left:10em;
+    padding-bottom:1em;
+    padding-top:1em;
+    z-index:999;
 }
+
+.bookingSubmit{
+	border-radius:0.5em;
+	height:3em;
+	width:10em;
+	background-color:#6495ED;
+	float:left;
+	    margin-bottom:1em;
+}
+
+.berechnen{
+	border-radius:0.5em;
+	height:3em;
+	width:10em;
+	background-color:#6495ED;
+	float:left;
+	margin-left:2em;
+	margin-bottom:1em;
+}
+
+
 
 #menuInner a {
     display: block;
     float: left;
-    margin-right: 85px;
-    padding: 0 10px;
+    margin-right: 4em;
+    padding: 0 1em;
     text-align: left;
+    color: #F0FFFF;
 }
 
 #menuInner a.active {
     border-bottom: 1px dotted white;
 }
 
-#head {
-    background: url(../img/head.png) top center no-repeat;
-    height: 200px;
-    margin: 0 auto;
-    width: 950px;
+#main{
+	margin: 5em 3em 3em 3em;
+	    max-width:65em;
 }
 
-#logo {
-    float: left;
+#footer{
+	padding: 1em;
+	width:100%;
+	background-color:#004272;
+	color:white;
+	text-align:center;
 }
 
-#logo img {margin-top: 25px;}
-
-#head>ul {
-    float: right;
-    margin-top: 25px;
+#maps{
+	float:right;
+	padding: 2em;
 }
 
-#head ul li {
-    background: url(../img/list-head.png) left no-repeat;
-    color: white;
-    display: block;
-    line-height: 3em;
-    padding-left: 40px;
-}
-
-#mainBackground {
-    background: #cbedc5 url(../img/main-bg.png) top repeat-x;
-    width: 100%;
-}
-
-#main {
-    background: white url(../img/shadow-bottom.png) bottom no-repeat;
-    border: 1px solid #c5cac3;
-    border-bottom: none;
-    min-height: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    width: 910px;
-
-    border-radius: 10px 10px 0 0;
-    -moz-border-radius: 10px 10px 0 0;
-}
-
-#footerBackground {
-    background: #025490 url(../img/footer-stripe.png);
-    border-top: 1px solid #000;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-#footer {
-    color: white;
-    margin: 0 auto;
-    width: 950px;
-}
-
-#footer ul {
-    float: left;
-}
-
-#footer ul li {
-    background: url(../img/footer-arrow.png) left no-repeat;
-    line-height: 2em;
-    padding-left: 20px;
-}
-
-#footer ul li a {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-#footer iframe {
-    border: 1px solid #000000;
-}
-
-.routePlanner input {
-    display: block;
-    margin: 3px;
-    width: 305px;
-}
-
-.routePlanner input[type=submit] {
-    padding: 5px;
-    width: auto;
-}
-
-#copyright {
-    color: white;
-    margin: 0 auto;
-    position: relative;
-    text-align: right;
-    top: -10px;
-    width: 940px;
-}
-
-#top input[type=text], #top input[type=password] {
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    font-size: 10px;
-    height: 10px;
-    padding: 3px 5px;
-}
-
-#top input[type=submit] {
-    background: #78bbf5;
-    border: 1px solid #3a8eb6;
-    cursor: pointer;
-    font-size: 10px;
-    padding: 3.5px 15px;
-}
-
-.aligncenter {text-align: center;}
-.alignleft {text-align: left;}
-.alignright {text-align: right;}
-.big {font-size: 15px; font-weight: bold;}
-.block {display: block;}
-.clear {clear: both;}
-.dark {color: #000;}
-.light {color: #fff;}
-.tablestart {border: none;}
-.tablestart td {padding: 3px;}
-
-
-#top input[type=submit] {
-    background: transparent url(../img/login.png) center no-repeat;
-    border: none;
-    color: white;
-    font-weight: bold;
-    height: 30px;
-    text-align: center;
-    width: 65px;
-}
-
-#top input[type=text], #top input[type=password] {
-    border: none;
-    color: black;
-    font-weight: bold;
-    height: 30px;
-    padding-left: 30px;
-    text-align: left;
-
-}
-
-#top input[type=text] {
-    background: transparent url(../img/userInput.png) center no-repeat;
-    height: 10px;
-    width: 110px;
-}
-
-#top input[type=password] {
-    background: transparent url(../img/passInput.png) center no-repeat;
-    height: 10px;
-    width: 70px;
-}
-
-.floatleft {float: left;}
-.floatright {float: right;}
-.inline {display: inline;}
-.noDeco {text-decoration: none;}
-.small {font-size: 10px;}
-.superBig {font-size: 100px; margin: 0 20px;}
-.white {color: #FFFFFF;}
-.border {border: 1px solid #999 !important;}
-
-#auswahl input[type=text]{
-    width: 105px;
-}
-
-#auswahl {
-    margin-left: 10px;
-}
-
-.parkplaces {
-    text-align: center;
-}
-
-.parkplaces b {
-    display: block;
-    margin: 10px 0px;
-}
-
-.bookingSubmit {
-    background: url(../img/booking-submit.png) repeat-x;
-    border: 1px solid #000000;
-    color: white;
-    height: 26px;
-    margin-left: 1px;
-    margin-top: 5px;
-    text-align: center;
-    width: 100px;
-}
-
-.btn-slide {color: black;}
-#panel {display: none;}
-
-.borderright {
-    border-right: 1px dotted #999;
-}
-
-#booking .borderright {
-    padding-right: 40px;
-}
-
-/* BOOKING */
-
-#booking u, #bookingSend u {
-    display: block;
-    margin-bottom: 10px;
-}
-
-#booking select, #bookingSend select {
-    width: 310px;
-}
-
-#bookingSend input, #bookingSend select {
-    border: none;
-}
-
-.bookingcheck input[type=text], .bookingcheck input[type=password]{
-    border: none; background: transparent;
-}
-
-.flighttable input[type=text] {
-    width: 195px;
-}
-
-/* START TABLES */
-
-.startBookBox {
-    padding: 10px;
-    width: 230px !important;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    margin-left: 50px;
-}
-
-.startBookBox input[type=text] {
-    width: 215px;
-}
-
-.startBookBox .tr li {
-    margin-bottom: 10px;
-    width: 215px;
-}
 
 .startBooking {
-    margin-top: 20px;
+		border-radius:0.5em;
+    margin-top: 1em;
+    width:19em;
+    background: #efefef;
+    padding:1em;
+    
 }
 
-.startTable {
-    float: left;
-    margin-right: 10px;
+.floatLeft{
+	float:left;
+	margin-top:1em;
 }
 
-.startTH {
-    float: left;
-    padding-bottom: 4px;
-    width: 80px;
+#to{
+	border-radius:1em;
+	background-color: #ffffff;
+	height:3em;
+	float:center;
+	width: 15em;
+	margin-bottom:1em;
 }
 
-.startTD {
-    float: left;
-    width: 65px;
+#from{
+	border-radius:1em;
+		background-color: #ffffff;
+	height:3em;
+	float:center;
+	width: 15em;
+	margin-bottom:1em;
 }
 
-.startTR {
-    clear: both;
-    display: block;
-    height: 15px;
-    padding: 5px;
-    width: 200px;
+#startpic{
+	float:right;
+	align:right;
+	margin-left: 1.5em;
+}
+//Preistabelle
+table, th, td { 
+  border-collapse: collapse;
+  padding:0.3em 0.5em; 
 }
 
-.longTD {
-    width: 120px !important;
+table {
+ margin-left: 1em;}
+
+th, caption { 
+  background-color: #666; 
+  color: #fff; 
+  border: 1px solid #666;
 }
 
-
-ul.start {
-    margin-top: 50px;
+td {
+ background-image: linear-gradient(#f9f9f9, #e3e3e3);
+ padding:0.25em 1em 0.25em 1em;
+ 
 }
 
-ul.start>li {
-    float: left;
-    width: 300px;
-    margin-left: 5px;
+tfoot {
+  border-bottom: 1px solid #666;
 }
 
-ul.start li:first-child {
-    margin-left: 0;
+caption {
+  font-size: 1.5em;
+  border-radius: 0.5em 0.5em 0 0;
+  padding: 0.5em 0 0 0
 }
 
-ul.th {
-    display: block;
-    clear: both;
-}
-
-ul.th li {
-    display: inline;
-    width: 80px;
-}
-
-ul.th li:first-child {
-    width: 80px;
-}
-
-ul.th li:last-child {
-    width: 20px;
-}
-
-ul.tr {
-   float: left;
-}
-
-ul.tr li {
-   display: block;
-   width: 80px;
-}
-
-/* CONTACT */
-
-.contact input[type=submit] {
-    float: right;
-}
-
-.contact textarea {
-    padding: 10px;
+/* 3. und 4. Spalte rechtsbündig */
+td:nth-of-type(3),td:nth-of-type(4) {
+  text-align: right;
 }
 
 
-/* BOOKING */
+#opener {clear: both; display: block; margin-top: 0.5em;}
+#opener img {position: relative; top: 0.3em;}
 
-.booking span {
-    font-family: Arial;
-    font-size: 10px;
-}
-
-.bookingReg input[type=text], .bookingReg input[type=password] {
-    width: 200px;
-}
-
-/* COLORBOX */
-
-.colorbox {
-    padding: 20px 30px;
-    width: 280px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-}
-
-.colorboxSmall {
-    padding: 5px 10px;
-    width: 320px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-}
-
-.submitColorbox {
-    background: none;
-    border: none;
-    height: 50px;
-    width: 340px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-}
-
-.lightblue {
-    background: #e1effb !important;
-}
-
-.lightgreen {
-    background: #dcf2d6 !important;
-}
-
-.lightgray {
-    background: #efefef !important;
-}
-
-.booking input[type=text] {
-    width: 300px;
-}
-
-#bookingEnd a {
-    color: black;
-}
-
-#kfz {
-    width: 50px;
-}
-
-/* UI CALENDER TIMEPICKER */
-
-div.ui-datepicker, div.ui-timepicker {
-    font-size: 11px;
-}
-
-/* css for timepicker */
-.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
-.ui-timepicker-div dl{ text-align: left; }
-.ui-timepicker-div dl dt{ height: 25px; }
-.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
-.ui-timepicker-div td { font-size: 90%; }
+.clear {clear: both;}
 
 
-/* START DIALOG */
-
-#opener {clear: both; display: block; margin-top: 10px;}
-#opener img {position: relative; top: 6px;}
